@@ -1,0 +1,76 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  padding: 5% 7%;
+  color: white;
+  font-size: 15px;
+}
+
+.content {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.main {
+  padding: 7% 10% 5% 5%;
+  background-color: hsl(244, 38%, 16%);
+}
+
+h1 {
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+}
+
+.decorated-word {
+  color: hsl(277, 64%, 61%);
+}
+
+.main p {
+  font-family: Inter, sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  margin: 2rem 1rem 2rem 0;
+  padding-right: 5rem;
+}
+
+.features {
+  padding: 2rem 5rem 0 0;
+  max-width: 900px
+}
+
+.features h4 {
+  margin-bottom: 0;
+}
+
+.features span {
+  text-transform: uppercase;
+  font-family: Lexend Deca, sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+}
+
+.main-image {
+  background-image: url(images/image-header-desktop.jpg);
+  background-size: cover;
+}
+
+.main-image img {
+  visibility: hidden;
+}
+
+@media (max-width: 992px) {
+  body{
+  text-align: center;
+  padding: 75px 15px;
+  }
+
+
+  .main{
+    padding: 30px;
+  }
+  .main p, .features{
+    padding: 0;
+  }
+  .features div{
+    padding: 15px 0;
+  }
+}
